@@ -8,7 +8,7 @@
 # Turn this on if you are having issues with something and working on resolving them.
 # This will spam your console with information that is useful if you know how to read the source.
 # It's suggested that you only turn this on at the direction of a developer.
-debug: false
+debug: true
 
 # Prevent find factions exploit
 # This will help limit how many times a player can be sent a map of factions.
@@ -17,7 +17,7 @@ debug: false
 #   set log to true and it will be logged to console as "player tried to show a faction map too soon and triggered exploit blocker."
 findfactionsexploit:
   cooldown: 2000 # in miliseconds. 2000 = 2 seconds.
-  log: false
+  log: true
 
 # Default Relation allows you to change the default relation for Factions.
 # Example usage would be so people can't leave then make a new Faction while Raiding
@@ -88,7 +88,7 @@ scoreboard:
 # FInfo scoreboard is displayed when a player walks into a new Faction's territory.
 # Scoreboard disappears after <expiration> seconds.
 # You can use any variable and color codes here
-  finfo-enabled: false
+  finfo-enabled: true
   finfo:
     - "&3Members"
     - "{online-count}/{faction-size}"
@@ -116,7 +116,7 @@ scoreboard:
     - "&aLand"
     - "{land}/{max-land}&f"
 
-  factionless-enabled: false
+  factionless-enabled: true
   factionless:
     - "&6Make a new faction"
     - "&6using /f &ccreate"
